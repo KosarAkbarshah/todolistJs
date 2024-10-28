@@ -128,7 +128,7 @@ switch (true) {
     case myTime < 17: flag = 'Afternoon'; break
     case myTime < 19: flag = 'evening'; break
     case myTime < 23: flag = 'night'; break
-    default: flag = 'dusk'; break
+    default: flag = 'night'; break
 }
 console.log('good' + flag);
 h3.innerHTML = 'Good ' + flag + ' !'
