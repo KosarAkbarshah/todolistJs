@@ -127,7 +127,7 @@ switch (true) {
     case myTime < 13: flag = 'Noon'; break
     case myTime < 17: flag = 'Afternoon'; break
     case myTime < 19: flag = 'evening'; break
-    case myTime < 23: flag = 'night'; break
+    case myTime < 3: flag = 'night'; break
     default: flag = 'night'; break
 }
 console.log('good' + flag);
