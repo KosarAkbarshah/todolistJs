@@ -3,7 +3,7 @@ Todo List Application
 
 Welcome to the Todo List Application! This project is a simple yet effective tool for managing your tasks and staying organized. Built with JavaScript, it offers a user-friendly interface for adding, removing, and marking tasks as complete.
 
-#Features:
+# feature: 
 
 Add new tasks📝
 
@@ -20,7 +20,7 @@ Real-time and dynamic welcome headline˖⁺‧₊˚♡˚₊‧⁺˖
 Responsive design for various devices📲
 
 
-#License
+# License:
 
 This project is licensed under the MIT License.
 
