@@ -5,19 +5,19 @@ Welcome to the Todo List Application! This project is a simple yet effective too
 
 Features
 
-	•	Add new tasks📝
-	•	Edit existing tasks-ˋˏ✄┈┈┈┈
-	•	Mark tasks as complete🎯
-	•	Delete tasks🧹🪣
-	•	Add the tasks to the favorites❤️
-	•	Real-time and dynamic welcome headline˖⁺‧₊˚♡˚₊‧⁺˖
-	•	Responsive design for various devices📲
+		Add new tasks📝
+		Edit existing tasks-ˋˏ✄┈┈┈┈
+		Mark tasks as complete🎯
+		Delete tasks🧹🪣
+		Add the tasks to the favorites❤️
+		Real-time and dynamic welcome headline˖⁺‧₊˚♡˚₊‧⁺˖
+		Responsive design for various devices📲
 
 Technologies Used
 
-	•	HTML </>
-	•	CSS🎨
-	•	JavaScript ｡🇯‌🇸‌
+		HTML </>
+	CSS🎨
+		JavaScript ｡🇯‌🇸‌
 
 
 
