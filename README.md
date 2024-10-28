@@ -3,22 +3,14 @@ Todo List Application
 
 Welcome to the Todo List Application! This project is a simple yet effective tool for managing your tasks and staying organized. Built with JavaScript, it offers a user-friendly interface for adding, removing, and marking tasks as complete.
 
-Features
-
-		Add new tasks📝
-		Edit existing tasks-ˋˏ✄┈┈┈┈
-		Mark tasks as complete🎯
-		Delete tasks🧹🪣
-		Add the tasks to the favorites❤️
-		Real-time and dynamic welcome headline˖⁺‧₊˚♡˚₊‧⁺˖
-		Responsive design for various devices📲
-
-Technologies Used
-
-		HTML </>
-	CSS🎨
-		JavaScript ｡🇯‌🇸‌
-
+Features:
+Add new tasks📝
+Edit existing tasks-ˋˏ✄┈┈┈┈
+Mark tasks as complete🎯
+Delete tasks🧹🪣
+Add the tasks to the favorites❤️
+Real-time and dynamic welcome headline˖⁺‧₊˚♡˚₊‧⁺˖
+Responsive design for various devices📲
 
 
 License
@@ -47,7 +39,7 @@ mobile screen:
 -💗Developed by Kosar Akbarshah
 -🕰️Created - 2024-10-28
 
--🪄 Technologies Used - HTML5, mediaquery, CSS3, javaScript
+-🪄 Technologies Used - HTML  </> , mediaquery, CSS 🎨, javaScript  ｡🇯‌🇸‌
 
 -👩‍💻 Role - Frontend 
 
