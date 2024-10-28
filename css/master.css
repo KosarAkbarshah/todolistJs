@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #b15ac5;
+    min-height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+
+
+
+
+    .toDobg {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        position: relative;
+
+
+
+
+        >img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        >h1 {
+            font-size: 30px;
+            display: flex;
+            flex-direction: row;
+            margin: 20px;
+            position: absolute;
+            top: 70px;
+            left: 130px;
+            color: white;
+            font-weight: 800;
+
+
+        }
+
+        >h3 {
+            font-size: 40px;
+            display: flex;
+            flex-direction: row;
+            margin: 20px;
+            position: absolute;
+            top: 10px;
+            left: 130px;
+            color: white;
+            font-weight: 800;
+
+        }
+
+        .box1 {
+            position: absolute;
+            top: 170px;
+            left: 130px;
+            width: 400px;
+            padding: 10px;
+            border: 3px solid rgba(18, 18, 19, 0.514);
+            margin: 10px auto;
+            border-radius: 15px;
+
+
+            >input {
+                width: 100%;
+                height: 40px;
+                border: 2px solid rgb(255, 255, 255);
+                border-radius: 10px;
+                caret-color: #b15ac5;
+                padding-left: 10px;
+
+
+
+
+            }
+
+            >button {
+                width: 50%;
+                border: 3px solid white;
+                color: white;
+                font-weight: 800;
+                background-color: rgba(0, 0, 0, 0.39);
+                border-radius: 15px;
+                display: flex;
+                margin: 10px auto;
+                justify-content: center;
+                transition: .5s;
+
+
+                &:hover {
+                    background-color: white;
+                    border: 2px solid black;
+                    color: black;
+
+
+                }
+            }
+
+            >ul {
+
+
+                >li {
+                    transition: 2s;
+                    color: rgb(255, 255, 255);
+                    list-style-type: decimal-leading-zero;
+                    font-size: 25px;
+                    border-bottom: 2px solid rgba(0, 0, 0, 0.543);
+
+
+
+                }
+
+
+            }
+
+        }
+
+
+    }
+}
+
+/* Responsive styles for mobile and xlDesktop */
+@media(max-width: 1024px) {
+    main {
+        >.box {
+            display: none;
+        }
+
+
+        >.toDobg {
+
+            position: relative;
+
+            >h3 {
+                position: absolute;
+                top: 10%;
+                left: 0;
+                display: flex;
+                flex-direction: row;
+                font-size: 30px;
+            }
+
+            >h1 {
+                position: absolute;
+                top: 20%;
+                left: 0;
+                display: flex;
+                font-size: 23px;
+
+
+            }
+
+            >.box1 {
+                position: absolute;
+                top: 65%;
+                left: 0px;
+            }
+        }
+
+    }
+
+
+}
+
+
+/* footer style  */
+.box {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+
+
+    >div {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+
+
+        &:first-of-type {
+            background-color: #6ef127;
+            border-radius: 19% 81% 23% 77% / 84% 22% 78% 16%;
+            animation: anime2 infinite alternate 2s;
+        }
+
+        &:last-of-type {
+            background-image: url(../img/ImportedPhoto.745011559.431385.jpeg);
+            background-size: cover;
+            border-radius: 69% 31% 70% 30% / 29% 39% 61% 71%;
+            animation: anime1 infinite alternate 2s;
+        }
+
+
+
+    }
+
+    &:hover {
+        >a {
+            left: -40px;
+
+        }
+    }
+
+    a {
+        position: absolute;
+        font-size: 30px;
+        text-decoration: none;
+        left: 100px;
+        transition: 1s;
+
+
+        &:nth-of-type(1) {
+            top: 1px;
+
+
+        }
+
+        &:nth-of-type(2) {
+            top: 40px;
+
+        }
+
+        >span {
+
+            >img {
+
+                width: 30px;
+                height: 30px;
+
+            }
+        }
+
+    }
+
+    >h3 {
+        color: black;
+        position: absolute;
+        left: 0px;
+        bottom: 10px;
+        font-size: 18px;
+        font-family: "The Girl Next Door", cursive;
+        border-radius: 20% 80% 27% 73% / 76% 30% 70% 24%;
+        background-color: #6ef127;
+
+
+
+    }
+
+    >h2 {
+        color: #6ef127;
+        position: absolute;
+        right: -20px;
+        top: 70px;
+        writing-mode: sideways-lr;
+        font-size: 18px;
+        font-family: "The Girl Next Door", cursive;
+        border-radius: 41% 59% 21% 79% / 56% 27% 73% 44%;
+        background-color: rgb(52, 49, 49);
+        padding: 10px 10px;
+
+
+    }
+
+}
+
+@keyframes anime1 {
+    to {
+        border-radius: 19% 81% 23% 77% / 84% 22% 78% 16%;
+    }
+}
+
+@keyframes anime2 {
+    to {
+        border-radius: 69% 31% 70% 30% / 29% 39% 61% 71%;
+    }
+}
+
+
+
+
+
+.left {
+    opacity: 0;
+}
+
+.line {
+    text-decoration: line-through;
+    text-decoration-color: hotpink;
+    text-decoration-thickness: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.calender {
+    font-size: 12px;
+    color: hotpink;
+    background-color: #05000693;
+}
